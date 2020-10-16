@@ -1,0 +1,12 @@
+[
+    {"id":"1", "img":"../imgs/giftShow (1).jpg","name":"礼品 · 999纯金箔玫瑰","price":"¥138","sell":"已售 3.5万 件"},
+    {"id":"2", "img":"../imgs/giftShow (2).jpg","name":"礼品 · 桃李满门/满天下","price":"¥378","sell":"已售 1589 件"},
+    {"id":"3", "img":"../imgs/giftShow (3).jpg","name":"礼品 · 迪奥口红+香水","price":"¥899","sell":"已售 177 件"},
+    {"id":"4","img":"../imgs/giftShow (4).jpg","name":"礼品 · 施华洛世奇天鹅项链 ","price":"¥988","sell":"已售 43 件"},
+    {"id":"5", "img":"../imgs/giftShow (5).jpg","name":"礼品 · 星期耳钉礼盒","price":"¥239","sell":"已售 1974 件"},
+    {"id":"6","img":"../imgs/giftShow (6).jpg","name":"礼品 · T银项链女施华洛世奇","price":"¥259","sell":"已售 301 件"},
+    {"id":"7", "img":"../imgs/giftShow (7).jpg","name":"礼品 · 施华洛世奇项链+耳钉","price":"¥1359","sell":"已售 53 件"},
+    {"id":"8", "img":"../imgs/giftShow (8).jpg","name":"礼品 · woody usb书本灯","price":"¥198","sell":"已售 448 件"},
+    {"id":"9", "img":"../imgs/giftShow (9).jpg","name":"礼品 · Woody创意木质3D灯","price":"¥158","sell":"已售 168 件"},
+    {"id":"10", "img":"../imgs/giftShow (10).jpg","name":"礼品 · 猫王收音机","price":"¥439","sell":"已售 52 件"}
+]
