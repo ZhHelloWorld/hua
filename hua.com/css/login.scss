@@ -1,0 +1,339 @@
+.search-login{
+    border-radius: 0;
+    input{
+        padding-left: 10px;
+    }
+    button{
+    border-radius: 0;
+    }
+}
+
+.login-bg{
+    background: url("../imgs/login_bg.jpg") center;
+    .log{
+        width: 1200px;
+        height: 474px;
+        margin: auto;
+        position: relative;
+    }
+}
+.log-Interface{
+    width: 360px;
+    height: 438px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.login-top{
+    height: 51px;
+    border-bottom: 1px solid #E9ECF0;
+    div{
+        width: 50%;
+        text-align: center;
+        line-height: 51px;
+        font-size: 18px;
+        cursor: pointer;
+        p{
+            width: 60%;
+            margin: auto;
+            padding: 0 10px;
+            border-bottom: 2px solid transparent;
+        }
+    }
+}
+.active{
+    border-bottom: 2px solid #FF734C !important;
+}
+
+#log-type1{
+    height: 240px;
+    padding: 40px 24px 0;
+    position: relative;
+    input{
+        box-sizing: border-box;
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+    }
+    .phone{
+        width: 20px;
+        height: 36px;
+        position: absolute;
+        top: 39px;
+        left: 25px;
+        background: url("../imgs/pc_icon.png") no-repeat -95px -23px;
+    }
+    &>:nth-child(1){
+        padding-left:30px;
+        border:1px solid #B4BABF;
+    }
+    &>:nth-child(3){
+        padding-left:30px;
+        margin: 30px 0;
+        border:1px solid #B4BABF;
+    }
+    .pwd{
+        width: 20px;
+        height: 36px;
+        position: absolute;
+        top: 106px;
+        left: 25px;
+        background: url("../imgs/pc_icon.png") no-repeat -50px -24px;
+    }
+    input[type="button"]{
+        background-color: #FF734C;
+        border-radius: 18px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px;
+        color: #fff;
+    }
+    P{
+        text-align: center;
+        font-size: 12px;
+        color: #71797F;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+}
+
+#log-type2{
+    display: none;
+    height: 260px;
+    padding: 20px 24px 0;
+    position: relative;
+    .code{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        img{
+            width: 100%;
+        }
+    }
+    p{
+        position: absolute;
+        text-align: center;
+        width: 87%;
+        bottom: 35px;
+    }
+}
+
+.login-footer{
+    height: 52px;
+    background-color: #F7F9FA;
+    margin-top: 54px;
+    border-radius: 0 0 8px 8px;
+    line-height: 52px;
+    p{
+        float: left;
+        margin: 0 10px;
+        cursor: pointer;
+        span{
+            padding:8px 10px;
+            margin-right: 5px;
+        }
+    }
+    &>:first-child{
+        span{
+            background: url("../imgs/pc_icon.png") no-repeat -30px -84px;
+        }
+    }
+    &>:nth-child(2){
+        span{
+            background: url("../imgs/pc_icon.png") no-repeat -60px -84px;
+        }
+    }
+    a{
+        float: right;
+        color: #FF734C;
+        margin-right: 20px;
+    }
+}
+
+.foot-c{
+    width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+.foot-nav{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    li{
+        cursor: pointer;
+    }
+}
+.foot-brand{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    .like{
+        margin: 0 20px;
+    }
+}
+.log-copy,.log-url{
+    display: flex;
+    justify-content: center;
+}
+
+
+#log-type1-r{
+    display:block;
+    height: 240px;
+    padding: 40px 24px 0;
+    justify-content: space-around;
+    &>div{
+        margin: 20px 0;
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+        input{
+            box-sizing: border-box;
+            padding-left: 20px;
+            height: 36px;
+            line-height: 36px;
+            outline: none;
+            border:1px solid #B4BABF;
+        }
+        p{
+            height: 20px;
+            line-height: 20px;
+        }
+    }
+    input[type="button"]{
+        width: 100%;
+        background-color: #FF734C;
+        border-radius: 18px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px;
+        color: #fff;
+        height: 36px;
+        line-height: 36px;
+    }
+    .tel-num{
+        input{
+            width: 100%;
+        }
+        .phone{
+            width: 20px;
+            height: 36px;
+            background: url("../imgs/pc_icon.png") no-repeat -95px -23px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+    .get{
+        display: flex;
+        .get-ver{
+            width: 98px;
+            height: 36px;
+            text-align: center;
+            background-color: #E9ECF0;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        input{
+            border-right: none;
+            flex: 1;
+        }
+    }
+    .ver{
+        width: 20px;
+        height: 36px;
+        background: url("../imgs/pc_icon.png") no-repeat -6px -23px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .pwd{
+        input{
+            width: 100%;
+        }
+        .p{
+            width: 20px;
+            height: 36px;
+            background: url("../imgs/pc_icon.png") no-repeat -50px -23px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+#log-type2-r{
+    display: none;
+    height: 240px;
+    padding: 40px 24px 0;
+    justify-content: space-around;
+    &>div{
+        margin: 20px 0;
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+        input{
+            box-sizing: border-box;
+            padding-left: 20px;
+            height: 36px;
+            line-height: 36px;
+            outline: none;
+            border:1px solid #B4BABF;
+        }
+        p{
+            height: 20px;
+            line-height: 20px;
+        }
+    }
+    input[type="button"]{
+        width: 100%;
+        background-color: #FF734C;
+        border-radius: 18px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px;
+        color: #fff;
+        height: 36px;
+        line-height: 36px;
+    }
+    .tel-num{
+        input{
+            width: 100%;
+        }
+        .phone{
+            width: 20px;
+            height: 36px;
+            background: url("../imgs/pc_icon.png") no-repeat -138px -23px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+    .pwd{
+        input{
+            width: 100%;
+        }
+        .p{
+            width: 20px;
+            height: 36px;
+            background: url("../imgs/pc_icon.png") no-repeat -50px -23px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+}

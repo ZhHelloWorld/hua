@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./imgs/favicon.ico">
+    <link rel="stylesheet" href="./css/list.min.css">
+    <link rel="stylesheet" href="./css/common.min.css">
+    <link rel="stylesheet" href="./css/index.min.css">
+    <link rel="stylesheet" href="./css/details.min.css">
+    <script src="./js/require.js" async= 'true' defer data-main="./js/detailsMain"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-c">
+            <div class="header-l">
+                <div class="collect fl"><span></span>收藏鲜花网(hua.com)</div>
+                <div class="focusWechat fl"><span></span>
+                    关注微信
+                    <div id="wechat-code">
+                        <img src="./imgs/wxguanjia_qrcode.png" alt="">
+                        <p>扫码关注</p>
+                        <p>回复"礼物"更多惊喜!</p>
+                    </div>
+                </div>
+                <div class="app fl"><span></span>
+                    花礼网app
+                    <div id="app-code">
+                        <img src="./imgs/appDownloadQrcode.png" alt="">
+                        <p>新人专享100元app礼包</p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-r">
+                <p class="fr">中国鲜花礼品网:中国鲜花网领先品牌</p>
+                <a href="list.html" id="shopcar" class="fr">热门商品列表</a>
+                <div id="service" class="fr">
+                    <div id="customer">客户服务<span><img id="rotate" src="./imgs/top_nav_arrow.png" alt=""></span></div>
+                    <ul id="customer-list">
+                        <li>在线付款</li>
+                        <li>帮助中心</li>
+                        <li>售后服务</li>
+                        <li>配送范围</li>
+                        <li>留言反馈</li>
+                    </ul>
+                </div>
+                <p class="Order-inquiry fr">订单查询</p>
+                <a href="register.html" class="fr" id="register">注册</a>
+                <a href="login.html" class="fr" id="login">你好,请登录</a>
+            </div>
+        </div>
+    </div>
+    <!-- 搜索框 logo 联系方式 -->
+    <div class="top">
+        <div class="top-c">
+            <div class="logo fl">
+                <a href="index.html"><h1>花礼网-中国鲜花礼品网</h1></a>
+            </div>
+            <div class="search fl">
+                <div class="search-box">
+                    <span class="magnifier"></span>
+                    <input type="text" placeholder="商品搜索">
+                    <button>搜索</button>
+                </div>
+                <div class="search-fast">
+                    <p>红玫瑰</p>
+                    <p>永生花</p>
+                    <p>生日鲜花</p>
+                    <p>礼品卡</p>
+                </div>
+
+            </div>
+            <div class="contact fr">
+                <span class="phone"></span>400-889-8188
+                <a href="#"><span></span>在线客服</a>
+            </div>
+        </div>
+    </div>
+    <!-- 分类 -->
+    <div class="type-nav">
+        <div class="type-nav-c clr">
+            <div class="sort fl">
+                ≡≡ 所有分类
+            </div>
+            <ul class="type-content .fl">
+                <li>鲜花</li>
+                <li>永生花</li>
+                <li>蛋糕</li>
+                <li>礼品</li>
+                <li>巧克力</li>
+                <li>花语大全</li>
+                <li>企业团购</li>
+                <li>设计师臻选鲜花</li>
+                <li>中秋节鲜花礼物</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="details clr"></div>
+    </div>
+
+    <div class="elder cakes">
+        <div class="elder-c clr cake-c">
+            <div class="elder-tit clr">
+                <h3 class="fl">选择配送城市  <span>丨送货上门</span></h3>
+            </div>
+            <div class="cakes-contant clr">
+                <div class="Distribution fl">
+                    <div class="left fl"><span></span>配送城市</div>
+                    <div class="right fr" id="choose">
+                        请选择<span></span>
+                    </div>
+                    <div class="city" id="city-none">
+                        <div class="city-tit">请选择或输入蛋糕的配送城市</div>
+                        <div class="city-hot">热门城市</div>
+                        <div id="city-list" class="clr"></div>
+                        <div class="city-search">
+                                <input type="text" placeholder="请输入配送城市">
+                                <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cities fr">
+                    <p>北京</p>
+                    <p>上海</p>
+                    <p>广州</p>
+                    <p>深圳</p>
+                    <p>长沙</p>
+                    <p>南昌</p>
+                    <p>济南</p>
+                    <p>天津</p>
+                    <p>重庆</p>
+                    <p>青岛</p>
+                    <p>太原</p>
+                    <p>珠海</p>
+                    <p>兰州</p>
+                    <p>更多</p>
+                </div>
+            </div>
+            <img src="./imgs/server.jpg" class="ser" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-c">
+            <ul class="footer-nav">
+                <li>首页</li>
+                <span>丨</span>
+                <li>关于我们</li>
+                <span>丨</span>
+                <li>媒体报道</li>
+                <span>丨</span>
+                <li>联系方式</li>
+                <span>丨</span>
+                <li>企业团购</li>
+                <span>丨</span>
+                <li>花店入驻</li>
+                <span>丨</span>
+                <li>友情链接</li>
+                <span>丨</span>
+                <li>在线补款</li>
+                <span>丨</span>
+                <li>为什么选择中国礼品鲜花网</li>
+            </ul>
+            <div class="copy">
+                <p>中国花卉协会会员</p>
+                <p>中国电子商务协会会员</p>
+                <span> ICP经营许可证：</span>
+                <p>粤B2-20050744</p>
+                <p>粤ICP备09171662号</p>
+                <span class="icon"></span>
+                <span>粤公网安备44030502000373号 Copyright © 2005-2020</span>
+            </div>
+            <div class="url">
+                <span>花礼网 （中国鲜花礼品网） </span>
+                <span class="link">www.hua.com</span>
+                <span> 深圳市百易信息技术有限公司</span>
+                <span> 中国鲜花网领先品牌，鲜花速递专家！</span>
+            </div>
+            <div class="brand clr">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="links">
+                <h6>友情链接</h6>
+                <li>中华取名网</li>
+                <li>深圳房产网</li>
+                <li>卷皮网</li>
+                <li>苗木</li>
+                <li>腕表</li>
+                <li>佐卡伊珠宝网</li>
+                <li>钻石婚戒定制</li>
+                <li>中国青少年艺术教育网</li>
+                <li>淘狗网</li>
+                <li>礼无忧网</li>
+                <li>宠物狗</li>
+                <li>机友网</li>
+                <li>礼物网</li>
+                <li>新三板</li>
+                <li>商标注册</li>
+                <li>眼镜店</li>
+            </div>
+        </div>
+    </div>
+
+    <div class="consult">
+        <span></span>
+        咨询客服
+    </div>
+
+    <div class="aside">
+        <div class="user"></div>
+        <a href="cart.html" class="Shopping-cart">
+            <span></span>
+            购物车
+            <div class="count">
+                0
+            </div>
+        </a>
+        <div class="fun">
+            <div class="Collection"></div>
+            <div class="history"></div>
+            <div class="tel"></div>
+            <div class="online"></div>
+        </div>
+        <div class="aside-code"></div>
+        <div class="feedback"></div>
+        <div class="back-top">
+            <div id="back-top"></div>
+        </div>
+    </div>
+
+    <div id = 'ball'></div>
+</body>
+</html>
